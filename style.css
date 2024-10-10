@@ -1,0 +1,150 @@
+/* Style de base */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+//* Barre de navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Aligner les éléments en ligne */
+    justify-content: center; /* Centrer les éléments horizontalement */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espacement entre les éléments */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* En-tête */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.header p {
+    font-size: 24px;
+}
+
+/* Section À propos */
+.about {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Section Portfolio */
+.portfolio {
+    background-color: #eaeaea;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.project h3 {
+    font-size: 24px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Section Contact */
+.contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form label {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact form button:hover {
+    background-color: #45a049;
+}
